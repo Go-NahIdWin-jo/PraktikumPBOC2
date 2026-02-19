@@ -14,6 +14,9 @@
 
 /* git add . */
 /* git commit -m "n" */
+
+/*checkoyt dulu, absitu push all *
+
 /* git push -u origin main */
 /* git push --all origin */
 /* git merge Pertemuan1 (bisa merge conflict)*/
