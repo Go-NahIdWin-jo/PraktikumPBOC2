@@ -36,5 +36,11 @@ public class Titik {
     double getOrdinat(){
 	return ordinat;
     }
+
+    //mengubah nilai absis
+
+    void setAbsis(double x){
+	absis = x;
+    }
 }
 
