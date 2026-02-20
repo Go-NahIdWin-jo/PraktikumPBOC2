@@ -30,5 +30,11 @@ public class Titik {
     double getAbsis(){
 	return absis;
     }
+
+    //mengembalikan nilai ordinat
+
+    double getOrdinat(){
+	return ordinat;
+    }
 }
 

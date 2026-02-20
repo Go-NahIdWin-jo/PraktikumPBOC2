@@ -29,6 +29,6 @@ public class MTitik {
 		System.out.println("Hello");
 		System.out.println(T1.absis);
 		System.out.println(T1.getAbsis());
-		
+		System.out.println(T1.getOrdinat());		
 	}
 }
