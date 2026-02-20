@@ -28,5 +28,7 @@ public class MTitik {
 		Titik T1 = new Titik(); //Membuat objek titik T1 (0,0)
 		System.out.println("Hello");
 		System.out.println(T1.absis);
+		System.out.println(T1.getAbsis());
+		
 	}
 }

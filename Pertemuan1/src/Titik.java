@@ -19,10 +19,16 @@ public class Titik {
     /* METHOD */
     //konstruktor untuk membuat titik (0,0)
 
-    //overload
+    
     Titik(){
         absis = 0;
         ordinat = 0;
+    }
+
+    //mengembalikan nilai absis
+    
+    double getAbsis(){
+	return absis;
     }
 }
 
