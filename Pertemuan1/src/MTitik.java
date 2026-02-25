@@ -34,5 +34,9 @@ public class MTitik {
 		System.out.println(T1.getAbsis());
 		T1.setOrdinat(7);
 		System.out.println(T1.getOrdinat());		
+		T1.geser(1,1);
+		System.out.println(T1.getAbsis());
+		System.out.println(T1.getOrdinat());
+		T1.printTitik();
 	}
 }

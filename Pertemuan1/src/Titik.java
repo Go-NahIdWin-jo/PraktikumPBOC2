@@ -48,6 +48,18 @@ public class Titik {
     void setOrdinat(double y){
 	ordinat = y;
     }
+   
+    //menggeser nilai absis dan ordinat
 
+    void geser(double x, double y){
+	absis = absis + x;
+	ordinat = ordinat + y;
+    }
+
+    //mencetak absis dan ordinat
+
+    void printTitik(){
+	System.out.println("Titik (" + absis + "," + ordinat + ")");
+    }
 }
 
