@@ -42,5 +42,12 @@ public class Titik {
     void setAbsis(double x){
 	absis = x;
     }
+
+    //mengubah nilai ordinat
+
+    void setOrdinat(double y){
+	ordinat = y;
+    }
+
 }
 
