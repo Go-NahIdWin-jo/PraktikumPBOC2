@@ -7,6 +7,8 @@
 
 public class MTitik {
 	public static void main(String[] args) {
+		Titik T4 = new Titik();
+		Titik T5 = new Titik();
 		Titik T1 = new Titik(); // Membuat objek titik T1 (0,0)
 		System.out.println("Hello");
 		System.out.println(T1.absis);
@@ -28,12 +30,22 @@ public class MTitik {
 		T2.printTitik();
 
 		// overload, lihat parameter
-		Titik T3 = new Titik(8, 9);
+		Titik T3 = new Titik(0, -1);
 		System.out.println("\noverload\n");
 		T3.printTitik();
 		System.out.println("current jumlah titik : " + Titik.getCounterTitik()); // kepemilikan kelas
 
-		// this
+		// print get counter
 
+		// Titik.printCounterTitik();
+
+		// System.out.println(T3.getKuadran());
+
+		T4 = T3.getRefleksiX();
+
+		T4.printTitik();
+
+		T5 = T2.getRefleksiY();
+		T5.printTitik();
 	}
 }
