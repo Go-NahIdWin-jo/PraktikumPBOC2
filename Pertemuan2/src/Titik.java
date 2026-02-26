@@ -10,12 +10,16 @@ public class Titik {
     double absis;
     double ordinat;
 
+    /* STATIC ATRIBUT */
+    static int counterTitik = 0;
+
     /* METHOD */
     // konstruktor untuk membuat titik (0,0)
 
     Titik() {
         absis = 0;
         ordinat = 0;
+        counterTitik = counterTitik + 1;
     }
 
     // method Overload
@@ -23,6 +27,7 @@ public class Titik {
     Titik(double x, double y) {
         absis = x;
         ordinat = y;
+        counterTitik = counterTitik + 1;
     }
 
     // mengembalikan nilai absis
@@ -35,6 +40,13 @@ public class Titik {
 
     double getOrdinat() {
         return ordinat;
+    }
+
+    // mengembalikan nilai statis penghitung titik
+    // harus ditambah "static"
+
+    static int getCounterTitik() {
+        return counterTitik;
     }
 
     // mengubah nilai absis

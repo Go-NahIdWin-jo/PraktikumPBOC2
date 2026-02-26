@@ -31,6 +31,9 @@ public class MTitik {
 		Titik T3 = new Titik(8, 9);
 		System.out.println("\noverload\n");
 		T3.printTitik();
+		System.out.println("current jumlah titik : " + Titik.getCounterTitik()); // kepemilikan kelas
+
+		// this
 
 	}
 }
