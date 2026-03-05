@@ -110,6 +110,12 @@ public class Titik {
         }
     }
 
+    // kembalikan nilai jarak ke titik pusat
+
+    double getJarakPusat( ){
+        return Math.sqrt(getAbsis() * getAbsis() + getOrdinat() * getOrdinat());
+    }
+
     // set refleksi X
 
     void refleksiX() {
@@ -117,7 +123,7 @@ public class Titik {
     }
     // set refleksi Y
 
-    void refleksiY(){
+    void refleksiY() {
         absis = -getAbsis();
     }
 

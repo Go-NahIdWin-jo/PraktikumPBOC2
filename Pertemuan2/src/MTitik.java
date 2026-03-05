@@ -49,5 +49,6 @@ public class MTitik {
 		T5.printTitik();
 		T5.refleksiY();
 		T5.printTitik();
+		System.out.println(T5.getJarakPusat());
 	}
 }
