@@ -82,7 +82,63 @@ public class Garis {
         } else {
             return getGradien() * G.getGradien() == -1;
         }
+    }
 
-        // output
+    // output layar
+    void printAwalAkhir() {
+        System.out.print("\nawal : ");
+        getAwal().printTitik();
+        System.out.print("\nakhir : ");
+        getAkhir().printTitik();
+    }
+
+    // tampilkan dalam bentuk fungsi persamaan linear
+    void printFungsiPersamaanLinear() {
+        double x1, x2, y1, y2;
+        x1 = getAwal().getAbsis();
+        x2 = getAkhir().getAbsis();
+        y1 = getAwal().getOrdinat();
+        y2 = getAkhir().getOrdinat();
+        // mtkkk we are so backkk
+        // (y - y1)(x2-x1) = (x - x1)(y2-y1)
+        // y*x2-y*x1 -y1*x2 + y1*x1 = x*y2 - x*y1 -x1*y2 + x1*y1
+        // y(x2-x1) = x(y2-y1) + y1*x2 - y1*x1 -x1*y2 + x1*y1
+        // y(x2-x1) = x(y2-y1) + y1*x2 -x1*y2
+        // y = (x(y2-y1) + y1*x2 - x1*y2)/(x2-x1)
+        double a = x2 - x1;
+        double m = y2 - y1;
+        double c = (y1 * x2) - (x1 * y2);
+        if (m == 0 && a == 0) {
+            System.out.println("error : titik awal dan akhir tidak membentuk garis");
+        } else {
+            if (a == 0) {
+                System.out.println("x = " + c / m * -1);
+            } else {
+                System.out.print("y = ");
+
+                if (a != 1) {
+                    // System.out.println("tes ;" + c + " " + a + "\n");
+                    m = m / a;
+                    c = c / a;
+                }
+                if (m != 1 && m != 0 && m != -1) {
+                    System.out.print(m);
+                }
+                if (m == -1) {
+                    System.out.print("-");
+                }
+                if (m != 0) {
+                    System.out.print("x");
+                }
+                if (c != 0) {
+                    if (m != 0) {
+                        System.out.print(" + ");
+                    }
+                    // System.out.println((y1 * x2) - (x1 * y2));
+                    System.out.print(c);
+                }
+                System.out.print("\n");
+            }
+        }
     }
 }
