@@ -73,6 +73,16 @@ public class Garis {
     }
 
     boolean isTegakLurus(Garis G) {
-        return getGradien() * G.getGradien() == -1;
+        if (Double.isInfinite(getGradien()) || Double.isInfinite(G.getGradien())) {
+            if (getGradien() == 0 || G.getGradien() == 0) {
+                return true;
+            } else {
+                return false;
+            }
+        } else {
+            return getGradien() * G.getGradien() == -1;
+        }
+
+        // output
     }
 }
