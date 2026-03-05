@@ -118,9 +118,9 @@ public class Titik {
 
     // kembalikan nilai jarak antar titik
 
-    double getJarak(Titik T){
-        return Math.sqrt((getAbsis() - T.getAbsis())*(getAbsis() - T.getAbsis()) + (getOrdinat() - T.getOrdinat())*(getOrdinat() - T.getOrdinat()));
-    }
+    double getJarak(Titik T) {
+        return Math.sqrt((getAbsis() - T.getAbsis()) * (getAbsis() - T.getAbsis())
+                + (getOrdinat() - T.getOrdinat()) * (getOrdinat() - T.getOrdinat())); }
 
     // set refleksi X
 

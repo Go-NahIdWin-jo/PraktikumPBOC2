@@ -50,7 +50,7 @@ public class MTitik {
 		T5.refleksiY();
 		T5.printTitik();
 
-		T4.setOrdinat(0);
+		T4.setOrdinat(0); //diubah dulu tiitk T4 jadi 0,0 untuk mastiin sama kayak get Jarak pusat
 		System.out.println(T5.getJarakPusat());
 		System.out.println(T5.getJarak(T4));
 	}
