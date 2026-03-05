@@ -117,6 +117,10 @@ public class Titik {
     }
     // set refleksi Y
 
+    void refleksiY(){
+        absis = -getAbsis();
+    }
+
     // mengembalikan Titik refleksi X
 
     Titik getRefleksiX() {

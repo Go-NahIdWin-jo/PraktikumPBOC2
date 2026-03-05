@@ -47,5 +47,7 @@ public class MTitik {
 
 		T5 = T2.getRefleksiY();
 		T5.printTitik();
+		T5.refleksiY();
+		T5.printTitik();
 	}
 }
