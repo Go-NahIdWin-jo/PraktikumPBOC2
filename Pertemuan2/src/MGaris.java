@@ -58,5 +58,34 @@ public class MGaris {
         System.out.println(L3.isTegakLurus(L4)); // cek
         System.out.println(L4.isTegakLurus(L3));
 
+        // tes print titik awal akhir
+
+        L3.printAwalAkhir();
+
+        // tes print persamaan, final
+        // L.printFungsiPersamaanLinear();
+        L3.printFungsiPersamaanLinear();
+        L4.printFungsiPersamaanLinear();
+        // L3.setAwal(new Titik());
+        // L3.setAkhir(new Titik(2, 4));
+        // L3.printFungsiPersamaanLinear();
+        L3.setAwal(new Titik(1, 5));
+        L3.setAkhir(new Titik(3, 1));
+        L3.printFungsiPersamaanLinear();
+        // L3.setAwal(new Titik(1, 3));
+        // L3.setAkhir(new Titik(5, 3));
+        // L3.printFungsiPersamaanLinear();
+        L3.setAwal(new Titik(2, 1));
+        L3.setAkhir(new Titik(2, 5));
+        L3.printFungsiPersamaanLinear();
+        // L3.setAwal(new Titik(0, 0));
+        // L3.setAkhir(new Titik(4, 2));
+        // L3.printFungsiPersamaanLinear();
+        L3.setAwal(new Titik(0, 4));
+        L3.setAkhir(new Titik(1, 6));
+        L3.printFungsiPersamaanLinear();
+        L3.setAwal(new Titik(1, 1));
+        L3.setAkhir(new Titik(1.000000001, 1));
+        L3.printFungsiPersamaanLinear();
     }
 }
