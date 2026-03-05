@@ -112,8 +112,14 @@ public class Titik {
 
     // kembalikan nilai jarak ke titik pusat
 
-    double getJarakPusat( ){
+    double getJarakPusat() {
         return Math.sqrt(getAbsis() * getAbsis() + getOrdinat() * getOrdinat());
+    }
+
+    // kembalikan nilai jarak antar titik
+
+    double getJarak(Titik T){
+        return Math.sqrt((getAbsis() - T.getAbsis())*(getAbsis() - T.getAbsis()) + (getOrdinat() - T.getOrdinat())*(getOrdinat() - T.getOrdinat()));
     }
 
     // set refleksi X
