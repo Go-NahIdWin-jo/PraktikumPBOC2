@@ -1,3 +1,9 @@
+/*
+* Nama File : BangunDatar.java
+* Deskripsi : file class BangunDatar
+* Pembuat : Adel Rayyan Hakim 24060124140173
+* Tanggal : 12 Maret 2026
+*/
 public class BangunDatar {
     private int jmlSisi;
     private String warna;
