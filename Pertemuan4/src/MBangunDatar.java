@@ -13,5 +13,6 @@ public class MBangunDatar {
         Lingkaran1 = new Lingkaran("merah", "hitam", 7.0);
         System.out.println(Persegi1.getJmlSisi());
         System.out.println(Lingkaran1.getLuas());
+        Persegi1.printInfo();
     }
 }

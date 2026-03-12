@@ -26,4 +26,12 @@ public class Persegi extends BangunDatar {
     public void setSisi(double sisi) {
         this.sisi = sisi;
     }
+
+    @Override
+    public void printInfo() {
+        System.out.println("Jumlah sisi: " + getJmlSisi());
+        System.out.println("Warna: " + getWarna());
+        System.out.println("Border: " + getBorder());
+        System.out.println("Sisi: " + sisi);
+    }
 }
