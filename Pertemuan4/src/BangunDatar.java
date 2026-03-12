@@ -44,4 +44,10 @@ public class BangunDatar {
         return warna;
     }
 
+    public void printInfo() {
+        System.out.println("Jumlah sisi: " + jmlSisi);
+        System.out.println("Warna " + warna);
+        System.out.println("Border " + border);
+    }
+
 }
