@@ -33,6 +33,18 @@ public class Mahasiswa {
         this.prodi = prodi;
     }
 
-    // konstruktor
+    // mutator
+
+    public String getNama() {
+        return nama;
+    }
+
+    public String getNim() {
+        return nim;
+    }
+
+    public String getProdi() {
+        return prodi;
+    }
 
 }

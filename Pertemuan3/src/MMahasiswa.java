@@ -10,10 +10,12 @@ public class MMahasiswa {
         Dosen D1;
         MataKuliah MK1;
         Kendaraan K1;
+        Mahasiswa Mhs1;
 
         MK1 = new MataKuliah();
         D1 = new Dosen();
         K1 = new Kendaraan();
+        Mhs1 = new Mahasiswa();
 
         System.out.println("kembalikan nama dosen : " + D1.getNama());
         System.out.println("kembalikan Nip dosen : " + D1.getNip());
@@ -37,6 +39,14 @@ public class MMahasiswa {
         System.out.println("kembalikan idMatkul Matakuliah : " + MK1.getIdMatkul());
         System.out.println("kembalikan Nama Matakuliah : " + MK1.getNama());
         System.out.println("kembalikan Sks Matakuliah : " + MK1.getSks());
+
+        Mhs1.setNama("John Kaisen");
+        Mhs1.setNim("NIM001");
+        Mhs1.setProdi("Informatika");
+
+        System.out.println(Mhs1.getNama());
+        System.out.println(Mhs1.getNim());
+        System.out.println(Mhs1.getProdi());
 
     }
 }
