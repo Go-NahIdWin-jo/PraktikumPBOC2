@@ -1,25 +1,34 @@
 /*
 * Nama File : BangunDatar.java
-* Deskripsi : file class BangunDatar
+* Deskripsi : file class BangunDatar, parent
 * Pembuat : Adel Rayyan Hakim 24060124140173
 * Tanggal : 12 Maret 2026
 */
+
+//mau coba final
 public class BangunDatar {
     private int jmlSisi;
     private String warna;
     private String border;
+    private static int counterBangunDatar = 0;
 
     // konstruktor
 
     public BangunDatar() {
-        this(0, "", "");
+        counterBangunDatar++;
     }
 
     public BangunDatar(int jmlSisi, String warna, String border) {
         this.jmlSisi = jmlSisi;
         this.warna = warna;
         this.border = border;
+        counterBangunDatar++;
+    }
 
+    // static method, tidak boleh di override. nanti method hiding
+
+    public static void printCounterBangunDatar() {
+        System.out.println("Jumlah objek bangun datar: " + counterBangunDatar);
     }
 
     // setter
