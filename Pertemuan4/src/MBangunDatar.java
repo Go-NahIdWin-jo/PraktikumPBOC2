@@ -17,5 +17,6 @@ public class MBangunDatar {
         BangunDatar.printCounterBangunDatar();
         Persegi1.setSisi(2);
         System.out.println(Persegi1.getLuas());
+        System.out.println(Persegi1.getKeliling());
     }
 }
