@@ -15,5 +15,7 @@ public class MBangunDatar {
         System.out.println(Lingkaran1.getLuas());
         Persegi1.printInfo();
         BangunDatar.printCounterBangunDatar();
+        Persegi1.setSisi(2);
+        System.out.println(Persegi1.getLuas());
     }
 }
