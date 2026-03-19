@@ -12,11 +12,12 @@ public class MBangunDatar {
         Persegi1 = new Persegi();
         Lingkaran1 = new Lingkaran("merah", "hitam", 7.0);
         System.out.println(Persegi1.getJmlSisi());
-        System.out.println(Lingkaran1.getLuas());
+        System.out.println("tes luas lingkaran " + Lingkaran1.getLuas());
+        System.out.println("tes keliling lingkaran " + Lingkaran1.getKeliling());
         Persegi1.printInfo();
         BangunDatar.printCounterBangunDatar();
         Persegi1.setSisi(2);
-        System.out.println(Persegi1.getLuas());
-        System.out.println(Persegi1.getKeliling());
+        System.out.println("tes luas persegi " + Persegi1.getLuas());
+        System.out.println("tes keliling persegi " + Persegi1.getKeliling());
     }
 }
