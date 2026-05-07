@@ -1,10 +1,12 @@
 
 /*
 * Nama File : ExceptionOnArray.java
-* Deskripsi : file class exception debugging
+* Deskripsi : file class exception debugging? mengecek array jika out of bound
 * Pembuat : Adel Rayyan Hakim 24060124140173
 * Tanggal : 26 Maret 2026
 */
+
+// menangkap kesaalahan
 public class ExceptionOnArray {
     public static void main(String[] args) {
         Integer[] arrayInteger = new Integer[4]; // krn

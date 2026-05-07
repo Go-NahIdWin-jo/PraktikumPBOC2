@@ -5,12 +5,14 @@
 * Tanggal : 26 Maret 2026
 */
 
-//javac asersi.jav\
+// digunakan jika harus benar
+
+//javac asersi.jav\ javac -d bin src/* 
 //java asrsi1
-//java --enableassertions Asersi1
+//java -enableassertions Asersi1 -> java -enableassertions -cp bin Asersi1
 public class Asersi1 {
     public static void main(String[] args) {
-        int x = 0;
+        int x = 1;
         if (x > 0) {
             System.out.println("x bilangan positif");
         } else {
