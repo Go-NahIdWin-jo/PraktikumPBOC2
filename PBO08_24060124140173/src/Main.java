@@ -1,7 +1,7 @@
 /* Nama File : Main.java
- * Deskripsi : class main
+ * Deskripsi : aplikasi class main
  * Pembuat : Adel Rayyan Hakim 24060124140173
- * Tanggal : 7 Mei 2026
+ * Tanggal : 9 Mei 2026
  *
 */
 public class Main {
@@ -21,12 +21,6 @@ public class Main {
         OperatorGenerik.Tukar(angka1, angka2);
         System.out.println(angka1.getIsi());
         System.out.println(angka2.getIsi());
-
-        // 3. class data
-        // a.
-
-        // b.
-        // .c
 
         // tukar string
         Datum<String> string1 = new Datum<String>("gedagdei");
@@ -51,7 +45,28 @@ public class Main {
 
         System.out.println(OperatorGenerik.Bobot2(car1, car2));
         System.out.println(OperatorGenerik.Bobot2(car2, car3));
-        // larik generik
+        // III. Larik Generik
+        // a. aplikasi kelas Data, yang merupakan larik statik generik
+        Data<String> cobalarikstring = new Data<>(new String[0]);
+        cobalarikstring.setIsi(10, "ninja");
+        cobalarikstring.setIsi(12, "ninjaaa");
+        System.out.println(cobalarikstring.getIsi(10));
+        System.out.println(cobalarikstring.getIsi(11));
+        System.out.println(cobalarikstring.getIsi(12));
 
+        // b. aplikasi larik generik setIsi() untuk keluarga objek Anabul
+        Data<Anabul> larikanabul = new Data<>(new Anabul[0]);
+        larikanabul.setIsi(1, hewan1.getIsi()); // datum berisi anabul
+        larikanabul.setIsi(2, car1); // kucing
+        larikanabul.setIsi(3, car2); // anggora
+
+        // c. aplikasi larik generik getIsi() untuk keluarga objek Anabul
+
+        larikanabul.getIsi(1).Gerak();
+        larikanabul.getIsi(2).Gerak();
+        larikanabul.getIsi(3).Gerak();
+
+        // d. aplikasi larik generik getSize() untuk keluarga objek Anabul
+        System.out.println("getSize() larik generik keluarga objek Anabul = " + larikanabul.getSize());
     }
 }

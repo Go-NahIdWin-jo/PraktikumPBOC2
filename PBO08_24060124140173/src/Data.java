@@ -1,8 +1,8 @@
 
 /* Nama File : Data.java
- * Deskripsi : class data
+ * Deskripsi : realisasi class data 
  * Pembuat : Adel Rayyan Hakim 24060124140173
- * Tanggal : 30 April 2026
+ * Tanggal : 9 Mei 2026
  *
 */
 import java.util.Arrays;

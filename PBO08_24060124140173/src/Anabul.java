@@ -2,29 +2,29 @@
 /* Nama File : Anabul.java
  * Deskripsi : class anabul
  * Pembuat : Adel Rayyan Hakim 24060124140173
- * Tanggal : 30 April 2026
+ * Tanggal : 7 Mei 2026
  *
 */
 public class Anabul {
-    private String nama;
+    private String panggilan; // anggap panggilan
 
-    public Anabul(String nama) {
-        this.nama = nama;
+    public Anabul(String panggilan) {
+        this.panggilan = panggilan;
     }
 
-    public String getNama() {
-        return this.nama;
+    public String getPanggilan() {
+        return this.panggilan;
     }
 
-    public void setNama(String nama) {
-        this.nama = nama;
+    public void setPanggilan(String panggilan) {
+        this.panggilan = panggilan;
     }
 
     public void Gerak() {
-        System.out.println(this.nama + " bergerak...");
+        System.out.println(this.panggilan + " bergerak...");
     }
 
     public void Bersuara() {
-        System.out.println(this.nama + " bersuara...");
+        System.out.println(this.panggilan + " bersuara...");
     }
 }

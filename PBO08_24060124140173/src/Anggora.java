@@ -11,11 +11,11 @@ public class Anggora extends Kucing {
 
     @Override
     public void Gerak() {
-        System.out.println(getNama() + " lincah melompat!");
+        System.out.println(getPanggilan() + " lincah melompat!");
     }
 
     @Override
     public void Bersuara() {
-        System.out.println(getNama() + " berbunyi mauw");
+        System.out.println(getPanggilan() + " berbunyi mauw");
     }
 }
