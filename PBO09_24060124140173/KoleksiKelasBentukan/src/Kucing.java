@@ -7,12 +7,12 @@
 public class Kucing extends Anabul {
     private double bobot;
 
-    public Kucing(String nama) {
-        super(nama);
+    public Kucing(String panggilan) {
+        super(panggilan);
     }
 
-    public Kucing(String nama, double bobot) {
-        super(nama);
+    public Kucing(String panggilan, double bobot) {
+        super(panggilan);
         this.bobot = bobot;
     }
 

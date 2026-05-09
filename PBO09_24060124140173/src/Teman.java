@@ -31,10 +31,15 @@ public class Teman {
         Lnama.set(indeks, nama);
     }
 
-    // d. addNama(nama) 
-
-     
-
+    // d. addNama(nama)
+    public void addNama(nama){
+        Lnama.add(nama);
+        nbelm = nbelm + 1;
     }
 
+    // e. delNama()
+
+    public void delNama(nama){
+        Lnama.remove
+    }
 }

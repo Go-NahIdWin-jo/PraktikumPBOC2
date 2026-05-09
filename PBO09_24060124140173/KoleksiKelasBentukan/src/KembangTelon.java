@@ -5,8 +5,8 @@
  *
 */
 public class KembangTelon extends Kucing {
-    public KembangTelon(String nama, double bobot) {
-        super(nama, bobot);
+    public KembangTelon(String panggilan, double bobot) {
+        super(panggilan, bobot);
     }
 
     @Override

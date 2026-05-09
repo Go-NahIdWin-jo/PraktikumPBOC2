@@ -5,8 +5,8 @@
  *
 */
 public class Burung extends Anabul {
-    public Burung(String nama) {
-        super(nama);
+    public Burung(String panggilan) {
+        super(panggilan);
     }
 
     @Override

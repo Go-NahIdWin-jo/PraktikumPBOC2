@@ -2,7 +2,7 @@
 /* Nama File : Anabul.java
  * Deskripsi : class anabul
  * Pembuat : Adel Rayyan Hakim 24060124140173
- * Tanggal : 30 April 2026
+ * Tanggal : 7 Mei 2026
  *
 */
 public class Anabul {

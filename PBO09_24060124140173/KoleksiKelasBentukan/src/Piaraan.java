@@ -58,12 +58,12 @@ public class Piaraan {
     }
 
     // h. countKucing() mengembalikan jumlah kucing yang ada di antrian
-    public int countKucing(){
-        int i;
-        for(i=0;i<=this.getNbelm();i++){
-            if()
-        }
-    }
+    // public int countKucing() {
+    // int i;
+    // for (i = 0; i <= this.getNbelm(); i++) {
+    // // if()
+    // }
+    // }
 
     // i. bobotKucing() mengembalikan jumlah bobot semua kucing
 
