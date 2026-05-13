@@ -11,11 +11,11 @@ public class Burung extends Anabul {
 
     @Override
     public void Gerak() {
-        System.out.println(getPanggilan() + " bergerak dengan terbang.");
+        System.out.println(getNama() + " bergerak dengan terbang.");
     }
 
     @Override
     public void Bersuara() {
-        System.out.println(getPanggilan() + " berbunyi cuit.");
+        System.out.println(getNama() + " berbunyi cuit.");
     }
 }

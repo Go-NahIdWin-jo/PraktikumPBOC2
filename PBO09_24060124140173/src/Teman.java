@@ -8,6 +8,7 @@
 import java.util.ArrayList;
 
 public class Teman {
+    // I. KOLEKSI KELAS DASAR
     // atribut
     private int nbelm;
     private ArrayList<String> Lnama;
@@ -57,7 +58,7 @@ public class Teman {
     // g. gantiNama(nama,namabaru)
     public void gantiNama(String nama, String namabaru) {
         int i;
-        for (i = 0; i < this.nbelm; i++) {
+        for (i = 0; i < this.getNbelm(); i++) {
             if (nama == Lnama.get(i)) {
                 setNama(i, namabaru);
             }
@@ -68,11 +69,12 @@ public class Teman {
     public int countNama(String nama) {
         int i;
         int count = 0;
-        for (i = 0; i < this.nbelm; i++) {
+        for (i = 0; i < this.getNbelm(); i++) {
             if (nama == Lnama.get(i)) {
                 count = count + 1;
             }
         }
         return count;
     }
+
 }

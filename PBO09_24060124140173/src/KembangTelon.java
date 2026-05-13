@@ -11,11 +11,11 @@ public class KembangTelon extends Kucing {
 
     @Override
     public void Gerak() {
-        System.out.println(getPanggilan() + " lincah melompat!");
+        System.out.println(getNama() + " lincah melompat!");
     }
 
     @Override
     public void Bersuara() {
-        System.out.println(getPanggilan() + " berbunyi nyaa");
+        System.out.println(getNama() + " berbunyi nyaa");
     }
 }
